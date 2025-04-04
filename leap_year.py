@@ -2,9 +2,10 @@
 
 # Created by: Joanna Keza
 # Date: April 3, 2025
-# This program casts a string to an integer, and 
-# lets the user know if the year they wrote was 
+# This program casts a string to an integer, and
+# lets the user know if the year they wrote was
 # a leap year or not a leap year
+
 
 def main():
     # get user's input
@@ -25,6 +26,7 @@ def main():
             print("{} is not a leap year".format(year_integer))
     except Exception:
         print("{} is not valid year".format(year_string))
+
 
 if __name__ == "__main__":
     main()
